@@ -1,0 +1,4 @@
+server:
+  port: 3600
+  servlet:
+    context-path: /bootcamp
