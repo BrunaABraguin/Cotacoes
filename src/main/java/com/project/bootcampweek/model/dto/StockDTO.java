@@ -20,6 +20,7 @@ public class StockDTO { //DATA transfer object
     private Double price;
 
     @NotNull
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     private LocalDate date;
 
     @NotNull
