@@ -6,9 +6,9 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5431/postgres
-    username: postgres
-    password: 123456
+    url: jce82fa3b6862d07cf64b390a84eee4e0e3bb57cc208ee4baaa7a251ef720ac8c
+    username: bgnlwwvbywgbti
+    password: ce82fa3b6862d07cf64b390a84eee4e0e3bb57cc208ee4baaa7a251ef720ac8c
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -17,4 +17,4 @@ spring:
       ddl-auto: none
 
 application:
-  description: Projeto criado para o bootcamp DIO - Santader
+  description: Projeto criado para a Dev Week Santander
